@@ -4,6 +4,11 @@
 
 }
 
+.img-portfolio{
+  max-width: 250px !important;
+  max-height: 250px !important;
+}
+
 .hovereffect {
     max-width: 250px !important;
     max-height: 250px !important;
@@ -39,6 +44,7 @@
   
   .hovereffect:hover img {
     opacity: 0.4;
+    background-color: #a3c05e;
     filter: alpha(opacity=40);
     -webkit-transform: translate3d(0,0,0);
     transform: translate3d(0,0,0);
